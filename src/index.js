@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Header from './header';
 import NavBar from './nav_bar';
+import MainBody from './MainBody';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -10,6 +11,7 @@ root.render(
   <React.StrictMode>
     {/* <Header /> */}
     <NavBar />
+    <MainBody/>
   </React.StrictMode>
 );
 

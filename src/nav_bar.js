@@ -1,4 +1,4 @@
-import './nav_bar.css'
+import './index.css'
 function NavBar(){
     return(
         <section className='top-nav'>
