@@ -177,11 +177,46 @@ h2 {
 
   /* ------------------------------------Info card------------------------------------------------------------ */
   .info-card-container {
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
-
+    justify-content: space-around;
   }
-  
+  /* picture card */
+  .left-card {
+    padding: 1rem;
+    background-color: #141e30;
+    border: 1px solid;
+    border-color: #ffffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .left-card img {
+    border: 1px solid;
+    border-top-color: #fafdff;
+    border-radius: 60%;
+    width: 100px;
+  }
+  .left-card h2 {
+    color: #f3efef;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .buttons-left-card {
+   padding: 0.2rem; 
+  }
+  .contact-button img {
+   src: url(../public/download.png);
+    
+  }
+  .resume-button{
+    margin-left: 0.5rem;
+  }
+  /* text card */
+  .right-card {
+    background-color: #141e30;
+  }
+  /* what should happen when screen size decreases */
   @media (max-width: 700px){
     .info-card-container{
       flex-direction: column;
