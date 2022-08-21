@@ -1,9 +1,9 @@
-import './index.css'
+import './nav_bar.css'
 function NavBar(){
     return(
         <section className='top-nav'>
-    <div>
-      Logo Here
+    <div className='logo-container'>
+      D S
     </div>
     <input id='menu-toggle' type="checkbox" />
     <label className='menu-button-container' for="menu-toggle">
