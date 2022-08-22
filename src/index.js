@@ -5,6 +5,7 @@ import Header from './header';
 import NavBar from './nav_bar';
 import MainBody from './MainBody';
 import reportWebVitals from './reportWebVitals';
+import Project from './Project';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +13,7 @@ root.render(
     {/* <Header /> */}
     <NavBar />
     <MainBody/>
+    <Project/>
   </React.StrictMode>
 );
 

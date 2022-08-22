@@ -1,5 +1,4 @@
 import './index.css'
-
 function MainBody() {
     return (
         <div className='info-card-container'>
@@ -7,7 +6,7 @@ function MainBody() {
                 <img className='profile-image' src='https://avatars.githubusercontent.com/u/28450025?v=4'></img>
                 <h2>Dhawal Sharma</h2>
                 <div className='buttons-left-card'>
-                <button className='contact-button'><img src='../public/logo.png'/>Contact</button>
+                <button className='contact-button'>Contact</button>
                 <button className='resume-button'>Resume</button>
                 </div>
                 </div>
@@ -16,8 +15,8 @@ function MainBody() {
                     <span>My name is Dhawal Sharma</span><br/>
                     <span>I am a </span><span>Developer</span>
 
-                    </div>    
-        </div>
+                    </div>   
+        </div>       
     )
 }
 export default MainBody;

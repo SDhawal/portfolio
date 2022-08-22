@@ -231,9 +231,13 @@ h2 {
 }
 
 /* text card */
+
 .right-card {
   min-width: 40%;
   background-color: #243b55;
+  border: 1px solid;
+  border-color: #ffffff;
+  color: #ffffff;
 }
 
 /* what should happen when screen size decreases */
