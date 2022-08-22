@@ -207,10 +207,7 @@ h2 {
   .buttons-left-card {
    padding: 0.2rem; 
   }
-  .contact-button img {
-   src: url(../public/download.png);
-    
-  }
+  
   .resume-button{
     margin-left: 0.5rem;
   }

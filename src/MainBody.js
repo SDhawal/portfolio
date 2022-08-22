@@ -4,10 +4,10 @@ function MainBody() {
     return (
         <div className='info-card-container'>
             <div className='left-card'>
-                <img className='profile-image' src='https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80'></img>
+                <img className='profile-image' src='https://avatars.githubusercontent.com/u/28450025?v=4'></img>
                 <h2>Dhawal Sharma</h2>
                 <div className='buttons-left-card'>
-                <button className='contact-button'><img/>Contact</button>
+                <button className='contact-button'><img src='../public/logo.png'/>Contact</button>
                 <button className='resume-button'>Resume</button>
                 </div>
                 </div>
