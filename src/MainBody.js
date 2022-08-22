@@ -12,7 +12,10 @@ function MainBody() {
                 </div>
                 </div>
                 <div className='right-card'>
-                    hey my name is dhawal
+                    <span>Hello World!</span><br/>
+                    <span>My name is Dhawal Sharma</span><br/>
+                    <span>I am a </span><span>Developer</span>
+
                     </div>    
         </div>
     )

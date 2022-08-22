@@ -180,10 +180,11 @@ h2 {
     margin-top: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   /* picture card */
   .left-card {
+    min-width: 40%;
     padding: 1rem;
     background-color: #141e30;
     border: 1px solid;
@@ -215,6 +216,7 @@ h2 {
   }
   /* text card */
   .right-card {
+    min-width: 40%;
     background-color: #141e30;
   }
   /* what should happen when screen size decreases */
