@@ -250,3 +250,27 @@ h2 {
     width: 100px;
   }
 }
+
+/* -----------------------------------------projects-------------------------------- */
+.projects {
+  border: 1px solid;
+  padding: 0.5rem;
+}
+
+.project-container {
+  padding: 2rem;
+  border: 1px solid;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+
+}
+.project-card {
+  min-width: 40%;
+  border: 2px solid;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  
+}

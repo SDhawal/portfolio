@@ -1,3 +1,4 @@
+import './index.css'
 import { useState } from "react";
 import ProjectList from "./ProjectList";
 const Project = () =>{
@@ -10,7 +11,7 @@ const Project = () =>{
 
     ]);
     return(
-        <div className='projects-container'>
+        <div className='projects'>
         <ProjectList projectToPass={projects} title="Projects" />
         </div>
     );

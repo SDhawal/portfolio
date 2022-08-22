@@ -4,10 +4,11 @@ const ProjectList = (props) => {
     const title = props.title;
     return(
         
-                    <div className='project'>
-                        <div className='project-name'>{title}</div>
+                    <div className='project-container' >
+                        
                         {projects.map((data)=>(
-                            <div key={data.id}>
+                        <div className='project-card' key={data.id}>
+                            
                                 <h2>{data.title}</h2>
                         <div className='project-description'>{data.body}</div>
                         <div className='project-snippet'>{data.project_snippet}</div>
