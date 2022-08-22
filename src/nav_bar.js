@@ -7,7 +7,7 @@ function NavBar(){
     </div>
     <input id='menu-toggle' type="checkbox" />
     <label className='menu-button-container' for="menu-toggle">
-    <div class='menu-button'></div>
+    <div className='menu-button'></div>
   </label>
     <ul className='menu'>
       <li>Home</li>

@@ -192,11 +192,12 @@ h2 {
     align-items: center;
     flex-direction: column;
   }
-  .left-card img {
+  .profile-image {
     border: 1px solid;
-    border-top-color: #fafdff;
+    border-top-color: #fdfdfd;
+    border-bottom-color:rgb(255, 255, 255);
     border-radius: 60%;
-    width: 100px;
+    width: 200px;
   }
   .left-card h2 {
     color: #f3efef;
@@ -220,5 +221,8 @@ h2 {
   @media (max-width: 700px){
     .info-card-container{
       flex-direction: column;
+    }
+    .profile-image{
+      width: 100px;
     }
   }
