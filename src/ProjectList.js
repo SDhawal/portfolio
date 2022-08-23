@@ -9,10 +9,13 @@ const ProjectList = (props) => {
                         {projects.map((data)=>(
                         <div className='project-card' key={data.id}>
                             
-                                <h2>{data.title}</h2>
+                        <h2>{data.title}</h2>
+                        <div className='project-snippet'><img src ={data.project_snippet} alt="project image snippet"/></div>
                         <div className='project-description'>{data.body}</div>
-                        <div className='project-snippet'>{data.project_snippet}</div>
-                        <div className='view-project'><button>View Peoject</button></div>
+                        <div className='view-project'><a href={data.link} target="_blank" rel="noreferrer">
+                            <button type='button' >View Peoject</button>
+                            </a>
+                            </div>
                         </div>
                         ))}
                         
