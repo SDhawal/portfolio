@@ -47,7 +47,10 @@ h2 {
   height: 50px;
   padding: 1em;
 }
-
+.link{
+  color: #FFF;
+  text-decoration: none;
+}
 .menu :hover {
   border-bottom: 1px solid;
   border-color: #f3efef;
@@ -336,13 +339,12 @@ h2 {
 
 /* -----------------------------------------projects-------------------------------- */
 .projects {
-  border: 1px solid;
   padding: 0.5rem;
 }
 
 .project-container {
   padding: 2rem;
-  border: 1px solid;
+  /* border: 1px solid; */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -422,5 +424,93 @@ h2 {
 
 /*--------------------------------------- This part is for contact.js ------------------------*/
 .contact-parent{
-  
+display: flex;
+flex-direction: row;
+justify-content:space-around;
+align-items: center;
+background: linear-gradient(to left bottom, #8D6E63, #243b55);
+color: #dfcece;
+padding: 1rem;
+margin:1rem;
+border-top-right-radius:20px ;
+border-bottom-left-radius: 20px;
+
+}
+.contact-left-card{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: center;
+}
+.icon-container{
+  display: flex;
+  flex-direction: column;
+}
+.icons{
+  margin: 1.3rem;
+}
+
+.contact-right-card{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form { max-width:420px; margin:50px auto; }
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #dfcece;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #243b55; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#243b55;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#8D6E63; }
+input:required {
+  border-color: #dfcece;
+  border-width: 3px;
+}
+
+input::placeholder {
+  color: rgb(252, 252, 252);
+}
+textarea::placeholder{
+  color: rgb(252, 252, 252);
+}
+@media (max-width: 700px) {
+  .contact-parent{
+    flex-direction: column;
+  }
 }

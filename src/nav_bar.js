@@ -11,10 +11,10 @@ function NavBar(){
     <div className='menu-button'></div>
   </label>
     <ul className='menu'>
-      <li><Link to="/" >Home</Link></li>
-      <li><Link to="/about-me">About Me</Link></li>
-      <li><Link to="/all-projects">Projects</Link></li>
-      <li><Link to="/contact">Contact</Link></li>
+      <li><Link to="/" className='link'>Home</Link></li>
+      <li><Link to="/about-me" className='link'>About Me</Link></li>
+      <li><Link to="/all-projects" className='link'>Projects</Link></li>
+      <li><Link to="/contact"className='link'>Contact</Link></li>
     </ul>
   </section>
     )
