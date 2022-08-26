@@ -1,4 +1,5 @@
 import './index.css'
+import { Link } from "react-router-dom";
 function NavBar(){
     return(
         <section className='top-nav'>
@@ -10,10 +11,10 @@ function NavBar(){
     <div className='menu-button'></div>
   </label>
     <ul className='menu'>
-      <li>Home</li>
-      <li>About Me</li>
-      <li>Projects</li>
-      <li>Contact</li>
+      <li><Link to="/" >Home</Link></li>
+      <li><Link to="/about-me">About Me</Link></li>
+      <li><Link to="/all-projects">Projects</Link></li>
+      <li><Link to="/contact">Contact</Link></li>
     </ul>
   </section>
     )

@@ -240,7 +240,7 @@ h2 {
   height: 50px;
   border: none;
   outline: none;
-  background: #111;
+  background: #243b55;
   cursor: pointer;
   position: relative;
   border-radius: 10px;
@@ -416,14 +416,11 @@ h2 {
   }
 }
 
-/* @media (max-width: 1250px) {
-  .project-container{
-    flex-direction: column;
-  }
-  .project-snippet img{
-    width: 18rem;
-  }
-  .project-card{
-    width: 20rem;
-  }
+/* @media (max-width: 1200px) {
+  
 } */
+
+/*--------------------------------------- This part is for contact.js ------------------------*/
+.contact-parent{
+  
+}
