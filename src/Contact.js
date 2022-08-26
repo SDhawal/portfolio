@@ -1,5 +1,6 @@
 import './index.css'
 import NavBar from './nav_bar';
+import Footer from "./Footer";
 import { SocialIcon } from 'react-social-icons';
 import React from 'react';
 
@@ -32,6 +33,7 @@ function Contact(){
                </div>
 
             </div>
+            <Footer/>
         </div>
     )
 };
