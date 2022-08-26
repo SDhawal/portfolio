@@ -13,7 +13,7 @@ const ProjectList = (props) => {
                         <div className='project-snippet'><img src ={data.project_snippet} alt="project image snippet"/></div>
                         <div className='project-description'>{data.body}</div>
                         <div className='view-project'><a href={data.link} target="_blank" rel="noreferrer">
-                            <button type='button' >View Peoject</button>
+                            <button type='button' >View Project</button>
                             </a>
                             </div>
                         </div>

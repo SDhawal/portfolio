@@ -237,10 +237,10 @@ h2 {
   margin-left: 0.5rem;
   width: 10rem;
   font-size: 20px;
-  height: 60px;
+  height: 50px;
   border: none;
   outline: none;
-  background: black;
+  background: #111;
   cursor: pointer;
   position: relative;
   border-radius: 10px;
@@ -300,18 +300,7 @@ h2 {
   50% { background-position: 400% 0; }
   100% { background-position: 0 0; }
 }
-.contact-button {
-  width: 10rem;
-  font-size: 20px;
-  height: 60px;
-  border: none;
-  outline: none;
-  background: black;
-  cursor: pointer;
-  position: relative;
-  border-radius: 10px;
-  color: #dfcece;
-}
+
 
 /* text card */
 
@@ -323,6 +312,9 @@ h2 {
   /* border: 1px solid;
   border-color: #ffffff; */
   color: #ffffff;
+  font-size: 2rem;
+  line-height: 3rem;
+  padding-top: 5rem;
 }
 
 /* what should happen when screen size decreases */
@@ -330,9 +322,15 @@ h2 {
   .info-card-container {
     flex-direction: column;
   }
-
+  .left-card{
+    background: linear-gradient(to left bottom, #8D6E63, #243b55);
+  }
+  .right-card{
+    background: linear-gradient(to right bottom, #243b55, #8D6E63);
+    padding: 1rem;
+  }
   .profile-image {
-    width: 100px;
+    width: 150px;
   }
 }
 
@@ -356,19 +354,56 @@ h2 {
 .project-card {
   width: 45%;
   border: 2px solid;
+  border-radius: 20px;
   padding: 0.5rem;
   margin-top: 0.5rem;
   display: flex;
   align-items: center;
   flex-direction: column;
+  position: relative;
+}
+.project-card:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
 }
 .project-snippet img {
-  width: 30rem;
+  max-width: 30rem;
+  max-height: 20rem;
 }
 .view-project{
-  float: inline-end;
-  bottom: 0;
+  position: absolute;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
 }
+.project-card:hover .view-project{
+  opacity: 1;
+}
+.project-card:hover .project-snippet{
+  opacity: 0.3;
+}
+.view-project button {
+  border-radius: 12px;
+  background-color: #243b55;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.view-project button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color: #767a76;
+  color: white;
+ }
 @media (max-width: 700px) {
   .project-container{
     flex-direction: column;
@@ -381,7 +416,7 @@ h2 {
   }
 }
 
-@media (max-width: 1250px) {
+/* @media (max-width: 1250px) {
   .project-container{
     flex-direction: column;
   }
@@ -391,4 +426,4 @@ h2 {
   .project-card{
     width: 20rem;
   }
-}
+} */

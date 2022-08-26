@@ -6,14 +6,14 @@ function MainBody() {
                 <img className='profile-image' src='https://avatars.githubusercontent.com/u/28450025?v=4' alt='Dhawal Sharma'></img>
                 <h2 className='name'>Dhawal Sharma</h2>
                 <div className='buttons-left-card'>
-                <button className='contact-button'>Contact</button>
-                <button className='resume-button'>Resume</button>
+                <a href = '#'><button className='resume-button'>Contact</button></a>
+                <a href = 'https://drive.google.com/file/d/1LO2XhKFoy1SgBFnuxBSV31wkgj0_R6xZ/view?usp=sharing' target="_blank"><button className='resume-button'>Resume</button></a>
                 </div>
                 </div>
                 <div className='right-card'>
-                    <h1><span>Hello World!</span></h1><br/>
-                    <h2><span>My name is </span><span className='right-card-name'>Dhawal Sharma</span></h2><br/>
-                    <h1><span>I am a </span><span className='right-card-profession'>Developer</span></h1>
+        <span>Hello World! 🖖 </span><br/>
+        <span>My name is </span><span className='right-card-name'>Dhawal Sharma</span><br/>
+        <span>I am a Front-End Developer and love to develop mobile applications and websites.</span><br/>
 
                     </div>   
         </div>       

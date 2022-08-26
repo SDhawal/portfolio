@@ -11,8 +11,8 @@ function NavBar(){
   </label>
     <ul className='menu'>
       <li>Home</li>
-      <li>Projects</li>
       <li>About Me</li>
+      <li>Projects</li>
       <li>Contact</li>
     </ul>
   </section>
