@@ -18,11 +18,11 @@ function AboutMe(){
             </div>
             <div className='timeline-conatiner'>
                 <h2>Education</h2>
-                <p className='timeline-p'>Institut supérieur d'informatique (ISI), <br/>Attestation of College 
+                <p className='timeline-p'><b>Institut supérieur d'informatique (ISI),</b> <br/>Attestation of College 
 Studies, <br/> Montral, QC. <br/> Feb 2021 - Present</p>
-                <p className='timeline-p'>Lovely Professional University, <br/>Computer Science Engineering, <br/> Punjab, India. <br/> Jul 2016 - Jul 2020</p>
-                <p className='timeline-p'>Sarvodaya Sr Secondary High School, <br/>Higher Secondary Education, <br/> Rajasthan, India. <br/> 2014 - 2016</p>
-                <p className='timeline-p'>Delhi Public School <br/>Secondary Education, <br/> Madhya Pradesh, India. <br/>  ~ 2014</p>
+                <p className='timeline-p'><b>Lovely Professional University,</b> <br/>Computer Science Engineering, <br/> Punjab, India. <br/> Jul 2016 - Jul 2020</p>
+                <p className='timeline-p'><b>Sarvodaya Sr Secondary High School,</b> <br/>Higher Secondary Education, <br/> Rajasthan, India. <br/> 2014 - 2016</p>
+                <p className='timeline-p'><b>Delhi Public School,</b> <br/>Secondary Education, <br/> Madhya Pradesh, India. <br/>  ~ 2014</p>
             </div> 
             <Footer />
         </div>

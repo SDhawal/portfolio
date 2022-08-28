@@ -16,9 +16,8 @@ function Contact(){
                 {/* buttons */}
                 <SocialIcon url='https://www.linkedin.com/in/dhawalsharma26/' className='icons' network="linkedin" bgColor="#dfcece" style={{height: 50,width: 50}} />
                 <SocialIcon url='https://github.com/SDhawal' className='icons' network="github" bgColor="#dfcece"  />
-                <SocialIcon url='https://twitter.com/DhawalS2610' className='icons' network="twitter" bgColor="#dfcece"  />
                 <SocialIcon url='https://medium.com/@dhawalsharmazz' className='icons' network="medium" bgColor="#dfcece"  />
-                <SocialIcon url='U033NN0PK4N' className='icons' network="slack" bgColor="#dfcece"  />
+                
                </div>
                </div>
                <div className='contact-right-card'>
@@ -27,7 +26,7 @@ function Contact(){
                 <form method="post" action="https://formspree.io/f/mpznwjdn">
                 <input name="name" type="text" class="feedback-input" placeholder="Name" required />   
                 <input name="email" type="text" class="feedback-input" placeholder="Email" required />
-                <textarea name="text" class="feedback-input" placeholder="Comment" required></textarea>
+                <textarea name="text" class="feedback-input" placeholder="Comment" required ></textarea>
                 <input type="submit" value="SUBMIT"/>
                 </form>
                </div>
