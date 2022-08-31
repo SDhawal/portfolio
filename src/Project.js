@@ -12,8 +12,13 @@ const Project = () =>{
 
     ]);
     return(
-        <div className='projects'>
+        <div>
+        <div>
+            <h2>PROJECTS</h2>
+        </div>
+        <div className='projects'>   
         <ProjectList projectToPass={projects} title="Projects" />
+        </div>
         </div>
     );
 }

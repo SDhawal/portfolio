@@ -18,7 +18,7 @@ function MainBody() {
 
                     </div>   
         </div>
-        <div>
+        <div className='brief-card'>
            <p>As a Computer Science Engineer I have been exposed to many languages and found my interest in Frontend programming,
             I like to design applications and websites and love to make the user experience more interactiveand simplified.
             I have worked on numerous project during this time period.  

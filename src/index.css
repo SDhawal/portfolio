@@ -355,7 +355,22 @@ h2 {
     width: 150px;
   }
 }
-
+/* ---------------------------------------brief introduction------------------------- */
+.brief-card{
+  padding: 0.5rem;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: linear-gradient(to right top, #8D6E63, #243b55);
+  margin: 0.5rem;
+  padding: 1rem;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius:20px;
+  font-size: 2rem;
+  line-height: 3rem;
+  color: #ffffff;
+}
 /* -----------------------------------------projects-------------------------------- */
 .projects {
   padding: 0.5rem;
@@ -456,7 +471,25 @@ h2 {
     width: 18rem;
   }
 }
-
+/* --------------------------------------this part is for soft skills ------------------------*/
+.softskill-parent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.softskill-card{
+  max-width: 20rem;
+  /* border: 1px solid #fff; */
+  padding-left: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.softskill-image img {
+  max-width: 9rem;
+}
 /*--------------------------------------- This part is for contact.js ------------------------*/
 .contact-parent {
   display: flex;
