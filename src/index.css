@@ -508,7 +508,7 @@ h2 {
 .contact-left-card {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  max-width: 40%;
   align-items: center;
 }
 
@@ -518,11 +518,11 @@ h2 {
 }
 
 .icons {
-  margin: 1.3rem;
+  margin: 3rem;
 }
 
 .contact-right-card {
-  width: 40%;
+  max-width: 40%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -597,6 +597,12 @@ textarea::placeholder {
   .contact-parent {
     flex-direction: column;
   }
+  .icon-container{
+    flex-direction: row;
+  }
+  .icons{
+    margin: 2rem;
+  }
 }
 
 /*------------------------------------- about me page -----------------------------*/
@@ -661,7 +667,6 @@ textarea::placeholder {
   flex-direction: row;
   justify-content: space-around;
   color: #dfcece;
-
 }
 @media (max-width: 700px) {
   .footer-container{

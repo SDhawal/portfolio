@@ -1,4 +1,5 @@
 import './index.css'
+import { Link } from "react-router-dom";
 function MainBody() {
     return (
         <div>
@@ -7,7 +8,7 @@ function MainBody() {
                 <img className='profile-image' src='https://avatars.githubusercontent.com/u/28450025?v=4' alt='Dhawal Sharma'></img>
                 <h2 className='name'>Dhawal Sharma</h2>
                 <div className='buttons-left-card'>
-                <a href = '#'><button className='resume-button'>Contact</button></a>
+                <Link to="/contact"className='link'><button className='resume-button'>Contact</button></Link>
                 <a href = 'https://drive.google.com/file/d/1LO2XhKFoy1SgBFnuxBSV31wkgj0_R6xZ/view?usp=sharing' target="_blank"><button className='resume-button'>Resume</button></a>
                 </div>
                 </div>
