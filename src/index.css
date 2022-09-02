@@ -502,7 +502,7 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
+  align-items: stretch;
   background: linear-gradient(to left bottom, #8D6E63, #243b55);
   color: #dfcece;
   padding: 1rem;
@@ -617,6 +617,7 @@ textarea::placeholder {
 @media (max-width: 700px) {
   .contact-parent {
     flex-direction: column;
+    align-items: center;
   }
   .contact-parent h1{
     font-size: 1.3rem;

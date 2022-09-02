@@ -9,7 +9,7 @@ function MainBody() {
                 <h2 className='name'>Dhawal Sharma</h2>
                 <div className='buttons-left-card'>
                 <Link to="/contact"className='link'><button className='resume-button'>Contact</button></Link>
-                <a href = 'https://drive.google.com/file/d/1LO2XhKFoy1SgBFnuxBSV31wkgj0_R6xZ/view?usp=sharing' target="_blank"><button className='resume-button'>Resume</button></a>
+                <a href = 'https://drive.google.com/file/d/1KggONsbiJGOHs2jwMDPdDsIDpqlM3Sr4/view?usp=sharing' target="_blank"><button className='resume-button'>Resume</button></a>
                 </div>
                 </div>
                 <div className='right-card'>
