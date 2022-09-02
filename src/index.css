@@ -476,10 +476,12 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .softskill-card{
   max-width: 20rem;
   /* border: 1px solid #fff; */
+  margin-top: 1rem;
   padding-left: 0.5rem;
   display: flex;
   flex-direction: column;
@@ -490,6 +492,11 @@ h2 {
 .softskill-image img {
   max-width: 9rem;
 }
+/* @media (max-width: 700px){
+  .softskill-parent{
+    flex-direction: column;
+  }
+} */
 /*--------------------------------------- This part is for contact.js ------------------------*/
 .contact-parent {
   display: flex;
@@ -504,11 +511,25 @@ h2 {
   border-bottom-left-radius: 20px;
 
 }
-
+.box-below{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(to left bottom, #8D6E63, #243b55);
+  padding: 1rem;
+  margin: 1rem;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.box-below h2{
+  color: #dfcece;
+  font-size: 2.1rem;
+}
 .contact-left-card {
   display: flex;
   flex-direction: column;
-  max-width: 40%;
+  max-width: 50%;
   align-items: center;
 }
 
@@ -522,7 +543,7 @@ h2 {
 }
 
 .contact-right-card {
-  max-width: 40%;
+  max-width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -596,6 +617,9 @@ textarea::placeholder {
 @media (max-width: 700px) {
   .contact-parent {
     flex-direction: column;
+  }
+  .contact-parent h1{
+    font-size: 1.3rem;
   }
   .icon-container{
     flex-direction: row;

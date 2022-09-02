@@ -7,19 +7,21 @@ function AboutMe(){
            <NavBar/>
            
             <div className='content-container'>
-            <p>I am a Computer Science engineer with hands-on experience. During my bachelor's I got exposed to 
-                numerous programming technologies among which I found Flutter, Java, JavaScript, and HTML-CSS most appealing. I also made projects like Cylinder weight data analyzer, Shopping 
-                website using JavaScript, HTML and CSS.</p>
-            <p> I expanded my horizons in these arenas by doing a
-                Post Graduate Diploma from ISI College Montreal. There I took part in many projects like 
-                Dating Application, photo sharing application and made individual projects like Pet’s daily care 
-                application and Weather forecast application. Working on these projects I have developed the 
-                confidence to do presentations and work in teams.</p>
+            <p>Engineer in computer science with practical experience. I was introduced to several 
+                different programming languages and frameworks during my bachelor's degree, 
+                but Flutter, Java, JavaScript, and HTML-CSS stood out as my favourites. 
+                I also used JavaScript, HTML, and CSS to create applications like a shopping website and a cylinder weight data analyzer.</p>
+            <p> Through the completion of a Post Graduate Diploma at ISI College Montreal,
+                 I broadened my horizons in these fields. There, I participated in a variety 
+                 of projects like dating applications and photo-sharing websites, as well as 
+                 created my own projects like a daily pet care app and a weather forecast app.
+                  As a result of working on these initiatives, I now feel comfortable giving 
+                  presentations and collaborating with others.</p>
             </div>
             <div className='timeline-conatiner'>
                 <h2>Education</h2>
                 <p className='timeline-p'><b>Institut supérieur d'informatique (ISI),</b> <br/>Attestation of College 
-Studies, <br/> Montral, QC. <br/> Feb 2021 - Present</p>
+Studies, <br/> Montreal, QC. <br/> Feb 2021 - Present</p>
                 <p className='timeline-p'><b>Lovely Professional University,</b> <br/>Computer Science Engineering, <br/> Punjab, India. <br/> Jul 2016 - Jul 2020</p>
                 <p className='timeline-p'><b>Sarvodaya Sr Secondary High School,</b> <br/>Higher Secondary Education, <br/> Rajasthan, India. <br/> 2014 - 2016</p>
                 <p className='timeline-p'><b>Delhi Public School,</b> <br/>Secondary Education, <br/> Madhya Pradesh, India. <br/>  ~ 2014</p>

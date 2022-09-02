@@ -24,13 +24,16 @@ function Contact(){
                 <h1>Get In Touch</h1>
                 {/* forms */}
                 <form method="post" action="https://formspree.io/f/mpznwjdn">
-                <input name="name" type="text" class="feedback-input" placeholder="Name" required />   
-                <input name="email" type="text" class="feedback-input" placeholder="Email" required />
-                <textarea name="text" class="feedback-input" placeholder="Comment" required ></textarea>
+                <input name="name" type="text" className="feedback-input" placeholder="Name" required />   
+                <input name="email" type="text" className="feedback-input" placeholder="Email" required />
+                <textarea name="text" className="feedback-input" placeholder="Comment" required ></textarea>
                 <input type="submit" value="SUBMIT"/>
                 </form>
                </div>
 
+            </div>
+            <div className='box-below'>
+                <h2>Please feel free to connect ❤️ </h2>
             </div>
             <Footer/>
         </div>
