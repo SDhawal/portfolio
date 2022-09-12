@@ -3,9 +3,10 @@ import { Link } from "react-router-dom";
 function NavBar(){
     return(
         <section className='top-nav'>
+          <Link to="/" className='link'>
     <div className='logo-container'>
       D S
-    </div>
+    </div></Link>
     <input id='menu-toggle' type="checkbox" />
     <label className='menu-button-container' for="menu-toggle">
     <div className='menu-button'></div>

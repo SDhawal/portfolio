@@ -354,6 +354,9 @@ h2 {
   .profile-image {
     width: 150px;
   }
+  .resume-button{
+    width: 8rem;
+  }
 }
 /* ---------------------------------------brief introduction------------------------- */
 .brief-card{
