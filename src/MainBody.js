@@ -9,19 +9,19 @@ function MainBody() {
                 <h2 className='name'>Dhawal Sharma</h2>
                 <div className='buttons-left-card'>
                 <Link to="/contact"className='link'><button className='resume-button'>Contact</button></Link>
-                <a href = 'https://drive.google.com/file/d/1KggONsbiJGOHs2jwMDPdDsIDpqlM3Sr4/view?usp=sharing' target="_blank"><button className='resume-button'>Resume</button></a>
+                <a href = 'https://drive.google.com/file/d/1J6xHVlWOnE7XB9IqkKSHyhe7stphn2Y0/view?usp=share_link' target="_blank"><button className='resume-button'>Resume</button></a>
                 </div>
                 </div>
                 <div className='right-card'>
         <span>Hello World! 🖖 </span><br/>
         <span>My name is </span><span className='right-card-name'>Dhawal Sharma</span><br/>
-        <span>I am a Front-End Developer and love to develop mobile applications and websites.</span><br/>
+        <span>I am a Full-Stack Developer and love to develop mobile applications and websites.</span><br/>
 
                     </div>   
         </div>
         <div className='brief-card'>
            <p>As a Computer Science Engineer I have been exposed to many languages and found my interest in Frontend programming. 
-           I like to design applications and websites and love to make the user experience more interactiveand simplified. I have worked on numerous project during this time period.  
+           I like to design applications and websites and love to make the user experience more interactive and simplified. I have worked on numerous project during this time period.  
            </p>
         </div>
         </div>       
