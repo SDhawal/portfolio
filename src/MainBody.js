@@ -9,7 +9,7 @@ function MainBody() {
                 <h2 className='name'>Dhawal Sharma</h2>
                 <div className='buttons-left-card'>
                 <Link to="/contact"className='link'><button className='resume-button'>Contact</button></Link>
-                <a href = 'https://drive.google.com/file/d/1J6xHVlWOnE7XB9IqkKSHyhe7stphn2Y0/view?usp=share_link' target="_blank"><button className='resume-button'>Resume</button></a>
+                <a href = 'https://drive.google.com/file/d/1J6xHVlWOnE7XB9IqkKSHyhe7stphn2Y0/view?usp=share_link' target="_blank" rel='noreferrer'><button className='resume-button'>Resume</button></a>
                 </div>
                 </div>
                 <div className='right-card'>
@@ -20,7 +20,7 @@ function MainBody() {
                     </div>   
         </div>
         <div className='brief-card'>
-           <p>As a Computer Science Engineer I have been exposed to many languages and found my interest in Frontend programming. 
+           <p>As a Computer Science Engineer I have been exposed to many languages and found my interest in Full Stack programming. 
            I like to design applications and websites and love to make the user experience more interactive and simplified. I have worked on numerous project during this time period.  
            </p>
         </div>
