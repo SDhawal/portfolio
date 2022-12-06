@@ -1,3 +1,5 @@
+import React from 'react';
+import logo from './portfolio-logo.png';
 import './index.css'
 import { Link } from "react-router-dom";
 function NavBar(){
@@ -5,7 +7,7 @@ function NavBar(){
         <section className='top-nav'>
           <Link to="/" className='link'>
     <div className='logo-container'>
-      D S
+      <img className='logo-image' src={logo} alt='logo'/>
     </div></Link>
     <input id='menu-toggle' type="checkbox" />
     <label className='menu-button-container' for="menu-toggle">

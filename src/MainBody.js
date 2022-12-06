@@ -20,7 +20,7 @@ function MainBody() {
                     </div>   
         </div>
         <div className='brief-card'>
-           <p>As a Computer Science Engineer I have been exposed to many languages and found my interest in Full Stack programming. 
+           <p>As a Computer Science Engineer, I have been exposed to many languages and found my interest in Full Stack Programming. 
            I like to design applications and websites and love to make the user experience more interactive and simplified. I have worked on numerous project during this time period.  
            </p>
         </div>
